@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: #cdcdcd;
+}
+header{
+    width: auto;
+    height: 50px;
+    background: #34352c;
+}
+header main{
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header main h2{
+    width: auto;
+    height: 50px;
+    font-weight: normal;
+    color: #fefefe;
+    line-height: 50px;
+}
+header main input{
+    width: 360px;
+    height: 26px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    text-indent: 1em;
+    background-color: #fefefe;
+}
+section{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+section h2{
+    width: auto;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+section h2 .num{
+    width: auto;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fff1de;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 5px;
+    margin-right: 10px;
+}
+.tdlist{
+    width: auto;
+    height: 32px;
+    background-color: #fefefe;
+    border-radius: 5px;
+    border-left: 5px solid #9c6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}.tdlist input{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+ }
+.tdlist span{
+     display: block;
+     width: 505px;
+     height: auto;
+}
+.del{
+     width: 22px;
+     height: 18px;
+     border-radius: 9px;
+     border: 2px solid #999;
+    margin-right: 10px;
+}
+.circle{
+    width: 18px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #999;
+    margin: 2px auto;
+    text-align: center;
+    line-height: 4px;
+    font-weight: 900;
+    color: #fff;
+}
+.tdlist1{
+    opacity: .5;
+    border-left: 5px solid #999;
+}
